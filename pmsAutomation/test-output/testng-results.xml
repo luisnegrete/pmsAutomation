@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="256" started-at="2018-04-06T21:04:33Z" finished-at="2018-04-06T21:04:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="256" started-at="2018-04-06T21:04:33Z" finished-at="2018-04-06T21:04:34Z">
+      <class name="com.nest.example.client.MyGrpcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nest.example.client.MyGrpcTest@5c3bd550]" name="setUp" is-config="true" duration-ms="337" started-at="2018-04-06T21:04:33Z" finished-at="2018-04-06T21:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGreetingMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nest.example.client.MyGrpcTest@5c3bd550]" name="testGreetingMessage" duration-ms="243" started-at="2018-04-06T21:04:33Z" data-provider="greetingProvider" finished-at="2018-04-06T21:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luis]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Truco 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dormir :D]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Foto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGreetingMessage -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.nest.example.client.MyGrpcTest@5c3bd550]" name="shutdown" is-config="true" duration-ms="1" started-at="2018-04-06T21:04:34Z" finished-at="2018-04-06T21:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- com.nest.example.client.MyGrpcTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
