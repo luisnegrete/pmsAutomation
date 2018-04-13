@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="274" started-at="2018-04-06T23:15:17Z" finished-at="2018-04-06T23:15:17Z">
+  <suite name="Suite" duration-ms="297" started-at="2018-04-13T17:44:37Z" finished-at="2018-04-13T17:44:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="274" started-at="2018-04-06T23:15:17Z" finished-at="2018-04-06T23:15:17Z">
+    <test name="Test" duration-ms="297" started-at="2018-04-13T17:44:37Z" finished-at="2018-04-13T17:44:37Z">
       <class name="com.nest.example.client.MyGrpcTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nest.example.client.MyGrpcTest@4157f54e]" name="setUp" is-config="true" duration-ms="360" started-at="2018-04-06T23:15:16Z" finished-at="2018-04-06T23:15:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nest.example.client.MyGrpcTest@4157f54e]" name="setUp" is-config="true" duration-ms="417" started-at="2018-04-13T17:44:36Z" finished-at="2018-04-13T17:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGreetingMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nest.example.client.MyGrpcTest@4157f54e]" name="testGreetingMessage" duration-ms="243" started-at="2018-04-06T23:15:17Z" data-provider="greetingProvider" finished-at="2018-04-06T23:15:17Z">
+        <test-method status="PASS" signature="testGreetingMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nest.example.client.MyGrpcTest@4157f54e]" name="testGreetingMessage" duration-ms="285" started-at="2018-04-13T17:44:37Z" data-provider="greetingProvider" finished-at="2018-04-13T17:44:37Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGreetingMessage -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.nest.example.client.MyGrpcTest@4157f54e]" name="shutdown" is-config="true" duration-ms="0" started-at="2018-04-06T23:15:17Z" finished-at="2018-04-06T23:15:17Z">
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.nest.example.client.MyGrpcTest@4157f54e]" name="shutdown" is-config="true" duration-ms="1" started-at="2018-04-13T17:44:37Z" finished-at="2018-04-13T17:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->

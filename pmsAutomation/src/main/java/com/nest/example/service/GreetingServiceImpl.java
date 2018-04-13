@@ -17,7 +17,7 @@ public class GreetingServiceImpl extends GreetingServiceGrpc.GreetingServiceImpl
 		ProtocolStringList lst = request.getHobbiesList();
 
 		for (String string : lst) {
-			hobbie = string;
+			hobbie += string;
 		}
 
 		// Armando el response

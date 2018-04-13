@@ -3,6 +3,7 @@ com\example\server\HelloResponseOrBuilder.class
 com\example\server\HelloRequest$Builder.class
 com\example\server\HelloResponse.class
 com\example\server\HelloRequest.class
+com\nest\example\client\MyGrpcClient.class
 com\example\server\GreetingServiceGrpc$GreetingServiceImplBase.class
 com\example\server\GreetingServiceGrpc$GreetingServiceDescriptorSupplier.class
 com\example\server\GreetingServiceGrpc$GreetingServiceBlockingStub.class
@@ -13,7 +14,9 @@ com\example\server\GreetingServiceGrpc$MethodHandlers.class
 com\example\server\GreetingServiceGrpc.class
 com\example\server\GreetingServiceGrpc$1.class
 com\example\server\GreetingServiceGrpc$GreetingServiceFutureStub.class
+com\nest\example\service\MyGrpcServer.class
 com\example\server\HelloRequest$1.class
 com\example\server\ExampleService.class
 com\example\server\ExampleService$1.class
+com\nest\example\service\GreetingServiceImpl.class
 com\example\server\HelloRequestOrBuilder.class
